@@ -51,18 +51,19 @@ localhost:8080/api/auth/signup
   "name":"Sandip",
   "username":"sandy",
   "email":"sandy@gmail.com",
-  "role":["admin","user"],
-  "password":"password"
+  "role":["user"],
+  "password":"password",
+  "status":"ACTIVATED"
 }
 
 
 http://localhost:8080/assignement/saveusers
 
 {
-  "name":"Sandip",
-  "username":"sandy",
-  "email":"sandy@gmail.com",
-  "role":["admin","user"],
+  "name":"Chaitali",
+  "username":"chaitu",
+  "email":"chaitu@gmail.com",
+  "role":["user"],
   "password":"password",
   "status":"ACTIVATED"
 }
